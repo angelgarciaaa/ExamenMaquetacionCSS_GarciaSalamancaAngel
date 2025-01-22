@@ -1,0 +1,305 @@
+a {
+    background-color: #95D1CC;
+    border-radius: 6px;
+    color: #FAFFAF;
+    text-decoration-line: none;
+}
+
+p {
+    font-family: "Times New Roman", Times, serif;
+    color: #22577E;
+    margin-left: 3%;
+    text-align: justify;
+}
+
+.enlaces{
+    position: fixed;
+    top: 2%;
+    right: 1%;
+    z-index: 2;
+}
+
+.enlaces a:hover {
+    font-size: 1.5em;
+    color: #22577E;
+    transition: font-size 0.3s ease, color 0.3s ease;
+}
+
+.enlaces a {
+    font-size: 1em;
+    color: #FAFFAF;
+    transition: font-size 0.3s ease, color 0.3s ease;
+}
+
+.imagenes_principales {
+    display: flex;
+    padding: 1%;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 5%;
+}
+
+.imagenes_principales p {
+    color: #5584AC;
+    text-decoration: line-through;
+    text-decoration-color: #FAFFAF;
+    font-weight: bold;
+    font-size: 600%;
+}
+
+.imagenes_principales img {
+    border-radius: 50%;
+}
+
+.texto_principal {
+    text-align: center;
+}
+
+.texto_principal h2{
+    color: #95D1CC;
+}
+
+.texto_principal h3{
+    color: #5584AC;
+}
+
+.titulo_apartado {
+    color: #5584AC;
+    text-align: center;
+    font-style: italic;
+}
+
+.cards {
+    margin: 2% auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.card{
+    width: 30%;
+    border: 3px solid;
+    border-radius: 5%;
+    border-color: #22577E;
+}
+
+.card p{
+    text-align: center;
+}
+
+.card h3 {
+    color: #95D1CC;
+    text-align: center;
+}
+
+.card img{
+    width: 100%;
+    border-radius: 5%;
+}
+
+.contenedor_flex {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 20%;
+    width: 60%;
+}
+
+.contenedor {
+    flex: 40%;
+    display: flex;
+    margin: 0.5%;
+    padding: 1%;
+    flex-direction: row;
+}
+
+.contenedor img {
+    width: 30%;
+    height: auto;
+}
+
+.interior_contenedor {
+    margin-left: 2%;
+}
+
+.interior_contenedor h4{
+    color: #22577E;
+    font-weight: bold;
+}
+
+.interior_contenedor p{
+    color: #5584AC;
+}
+
+.formulario_y_footer {
+    background-color: #95D1CC;
+}
+
+.formulario{
+    display: flex;
+}
+
+.primera_columna {
+    display: inline-block;
+}
+
+.grid_grande {
+    display: grid;
+    grid-template-columns: 5% 10% 60% 25%;
+}
+
+.grid_grande img {
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 15%;
+}
+
+.grid_izquierda h4, p{
+    text-align: left;
+}
+
+.grid_izquierda h4{
+    color: #22577E;
+}
+
+.grid_izquierda p{
+    color: #5584AC;
+}
+
+.grid_centro, .grid_centro p {
+    text-align: center;
+}
+
+.grid_derecha{
+    text-align: right;
+    margin-block-start: -1.33em;
+}
+
+.cuatro_imagenes, .tres_imagenes {
+    display: flex;
+    justify-content: space-around;
+}
+
+.cuatro_imagenes img {
+    width: 25%;
+    border-radius: 5%;
+}
+
+.tres_imagenes img{
+    width: 33%;
+    border-radius: 5%;
+}
+
+@media screen and (max-width: 800px){
+    p, h1, h2, h3, h4 {
+        font-size: 50%;
+    }
+}
+
+#modernos {
+    background-color: #FAFFAF;
+    color: #22577E;
+    font-weight: bold;
+    font-size: 175%;
+}
+
+#columna_nombre {
+    width: 10%;
+}
+
+#columna_m2 {
+    width: 5%;
+}
+
+#columna_precio {
+    width: 15%;
+}
+
+#columna_imagen {
+    width: 60%;
+}
+
+#top {
+    color: rgb(250, 12, 12);
+    font-size: 2em;
+}
+
+#facebook {
+    background-color: rgb(12, 65, 209);
+    color: white;
+    font-size: 1em;
+    transition: font-size 0.3s ease;
+}
+
+#youtube {
+    background-color: rgb(255, 25, 0);
+    font-size: 1em;
+    transition: font-size 0.3s ease;
+}
+
+#facebook:hover, #youtube:hover {
+    font-size: 1.5em;
+    transition: font-size 0.3s ease;
+}
+
+#parrafo_explora {
+    text-align: center;
+}
+
+header {
+    display: flex;
+    padding: 1.5%;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background: #95D1CC;
+    overflow: hidden;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 1em;
+}
+
+header img {
+    height: 1.3em;
+    width: auto;
+    margin-right: 5%;
+}
+header a {
+    font-size: 1em;
+    transition: font-size 0.3s ease, color 0.3s ease;
+    color: #FAFFAF;
+}
+
+header a:hover{
+    font-size: 1.5em;
+    transition: font-size 0.3s ease, color 0.3s ease;
+    color: #22577E;
+}
+
+table {
+    border-collapse: collapse;
+    border-color: #22577E;
+    width: 60%;
+    text-align: center;
+    margin-left: 20%;
+}
+
+table th {
+    background-color: #95D1CC;
+    color: #22577E;
+}
+
+table img {
+    width: 30%;
+    height: auto;
+}
+
+hr {
+    color: #22577E;
+}
