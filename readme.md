@@ -20,7 +20,7 @@ Este examen implicó desafíos como la implementación de un diseño que se ajus
 - CSS3
 
 ## Versionado
-La versión actual del proyecto es 1.0.0. Se adopta un enfoque de versionado semántico para facilitar el mantenimiento y la escalabilidad del código.
+La versión actual del proyecto es 1.0.0. 
 
 ## Autores
 - Ángel García Salamanca
